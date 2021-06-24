@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+}
+.header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(images/Homepage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+}
+
+.menu{
+	padding-top: 10%;
+	float: left;
+}
+.menu ul li{
+	padding: 10px;
+	padding-left: 50px;
+	flex-direction: column;
+}
+.menu li a{
+	text-decoration: none;
+	color: #111;
+	letter-spacing: 3px;
+}
+.title h1{
+	float: left;
+	font-size: 50px;
+	letter-spacing: 10px;
+	padding-top: 20%;
+	padding-left: 20%;
+	font-family: oxygen;
+}
+.banner{
+	width: 100%;
+}
+.banner .left{
+	background-image: url(images/Homepage2.jpg);
+	width: 50%;
+	min-height: 100vh;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner .right{
+	background-image: url(images/Homepage3.jpg);
+	width: 50%;
+	min-height: 100vh;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.tittle-banner{
+	text-align: center;
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: Oxygen;
+	font-size: 40px;
+    padding-top: 45%;
+}
+.tittle-banner-2{
+	text-align: center;
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: Oxygen;
+	font-size: 40px;
+    padding-top: 45%;
+}
+.tittle-banner-3{
+	text-align: center;
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: Oxygen;
+	font-size: 20px;
+}
+h4{
+	text-align: center;
+	padding: 20px;
+	font-family: oxygen;
+}
+.main-img{
+	width: 100%;
+	display:inline-flex;
+}
+.main-img img{
+	width:100%;
+	height: 250px;
+}
+.main-container{
+	width: 100%;
+
+}
+.left-main{
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+.left-main p{
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-family: oxygen;	
+}
+.left-main button{
+	background-color: #111;
+	color: #fff;
+	width: 50px;
+	height: 35px;
+	border: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+	font-family: oxygen;
+
+}
+.left-main input{
+	width: 450px;
+	height: 33px;
+	margin-left: 30px;
+}
+.icon li{
+	display: inline-block;
+
+}
+.icon a i{
+	color: #111;
+	padding-top: 10px;
+	font-size: 30px;
+	left: 50px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.right-main{
+	width: 50%;
+	height: 300px;
+	float: right;
+
+}
+.chinhsach{
+	width: 100%;
+	padding-top: 30px;
+}
+.chinhsach ul li{
+	display:block;
+	padding-left: 50%;
+	padding-top: 5px;
+}
+.chinhsach ul li span{
+	font-size: 30px;
+	font-family: oxygen;
+}
+.chinhsach li a{
+	text-decoration: none;
+	color: #111;
+	font-family: oxygen;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+@media (max-width: 1041px){
+	.header{
+		width: 100%;
+	}
+	.menu{
+	padding-top: 10%;
+	float: left;
+}
+	.title h1{
+		float: left;
+	font-size: 50px;
+	letter-spacing: 10px;
+	padding-top: 30%;
+	padding-left: 20%;
+	font-family: oxygen;
+	}
+	.main-img{
+		width: 100%;
+	}
+	.main-img img{
+		width:208px;
+	}
+	.banner .left{
+		width: 50%;
+	min-height: 80vh;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	.banner .right{
+		width: 50%;
+	min-height: 80vh;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	.left-main input{
+	width: 400px;
+	height: 33px;
+	margin-left: 30px;
+}
+.footer{
+
+	text-align: center;
+	width: 100%;
+}
+}
+@media (max-width: 1024px){
+	.header{
+		width: 100%;
+		min-height:100vh;
+	}
+	.banner{
+		width: 100%;
+	}
+	.banner .left{
+		width: 50%;
+		min-height:100vh;
+		float: left;
+	}
+	.banner .right{
+		width: 50%;
+		min-height:100vh;
+	}
+	.main-img{
+	width: 100%;
+	display:inline-flex;
+}
+.main-img img{
+	width:20%;
+	height: 250px;
+}
+}
+@media (max-width: 816px){
+	.header{
+		width: 100%;
+		min-height:100vh;
+	}
+	.title h1{
+		float: left;
+	font-size: 30px;
+	letter-spacing: 10px;
+	padding-top: 30%;
+	padding-left: 10%;
+	font-family: oxygen;
+	}
+	.banner{
+		width: 100%;
+	}
+	.banner .left{
+		width: 50%;
+		min-height:100vh;
+		float: left;
+	}
+	.banner .right{
+		width: 50%;
+		min-height:100vh;
+	}
+	.main-img{
+	width: 100%;
+	display:inline-flex;
+}
+.left-main input{
+	width: 300px;
+}
+.main-img img{
+	width:20%;
+	height: 250px;
+}
+.footer p{
+	font-size: 15px;
+}
+}
