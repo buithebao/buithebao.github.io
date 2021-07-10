@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-thammythucuc.vn	TRUE	/	FALSE	1999999999	PHPSESSID	ad1f40db078c0f40ce1b3b4619cb935b
-
